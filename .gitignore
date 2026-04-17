@@ -1,0 +1,28 @@
+# Logs
+code/logs/
+*.out
+*.err
+
+# Ignore large/raw data
+data/
+datasets/
+checkpoints/
+checkpoints_real/
+checkpoints_cfg/
+logs/
+checkpoints_v2/
+venv/
+
+# Ignore temporary stuff
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HPC junk
+slurm-*.out
