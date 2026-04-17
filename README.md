@@ -31,12 +31,12 @@ slice2dvf/
 
 ## Data
 
-| Dataset | Location | Description |
-|---|---|---|
-| Real DVFs | `/mimer/.../real/fields/` | 10 COPD cases, DIR-Lab 4DCT |
-| Synthetic (full res) | `/mimer/.../smooth_synthetic/` | 500 train / 100 test at 256×256×128 |
-| Synthetic (downsampled) | `/mimer/.../smooth_synthetic_downsampled/` | z-score normalised at 128×128×64 |
-| Visualisations | `/mimer/.../visual/` | Saved figures |
+| Dataset | Description |
+|---|---|
+| Real DVFs | 10 COPD cases, DIR-Lab 4DCT |
+| Synthetic (full res) | 500 train / 100 test at 256×256×128 |
+| Synthetic (downsampled) | | z-score normalised at 128×128×64 |
+| Visualisations |  Saved figures |
 
 ---
 
