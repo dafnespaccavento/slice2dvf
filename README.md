@@ -35,7 +35,7 @@ slice2dvf/
 |---|---|
 | Real DVFs | 10 COPD cases, DIR-Lab 4DCT |
 | Synthetic (full res) | 500 train / 100 test at 256×256×128 |
-| Synthetic (downsampled) | | z-score normalised at 128×128×64 |
+| Synthetic (downsampled) | z-score normalised at 128×128×64 |
 | Visualisations |  Saved figures |
 
 ---
