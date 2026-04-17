@@ -1,0 +1,156 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6335992
+============================================================
+DDPM Sampling — started 2026-04-05 12:10:28
+Log: /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling/sampling.log
+============================================================
+Device: cuda
+Voxel spacing (downsampled): (1.25, 1.25, 5.0) mm
+DVF stats: mean=-3.174312, std=10.820530
+Test samples: 100
+Loaded: /mimer/NOBACKUP/groups/caim1/dafne/checkpoints/best_model.pth
+
+Running DDPM sampling on 100 test samples...
+  Sample 001/100
+  Sample 002/100
+  Sample 003/100
+  Sample 004/100
+  Sample 005/100
+  Sample 006/100
+  Sample 007/100
+  Sample 008/100
+  Sample 009/100
+  Sample 010/100
+  Sample 011/100
+  Sample 012/100
+  Sample 013/100
+  Sample 014/100
+  Sample 015/100
+  Sample 016/100
+  Sample 017/100
+  Sample 018/100
+  Sample 019/100
+  Sample 020/100
+  Sample 021/100
+  Sample 022/100
+  Sample 023/100
+  Sample 024/100
+  Sample 025/100
+  Sample 026/100
+  Sample 027/100
+  Sample 028/100
+  Sample 029/100
+  Sample 030/100
+  Sample 031/100
+  Sample 032/100
+  Sample 033/100
+  Sample 034/100
+  Sample 035/100
+  Sample 036/100
+  Sample 037/100
+  Sample 038/100
+  Sample 039/100
+  Sample 040/100
+  Sample 041/100
+  Sample 042/100
+  Sample 043/100
+  Sample 044/100
+  Sample 045/100
+  Sample 046/100
+  Sample 047/100
+  Sample 048/100
+  Sample 049/100
+  Sample 050/100
+  Sample 051/100
+  Sample 052/100
+  Sample 053/100
+  Sample 054/100
+  Sample 055/100
+  Sample 056/100
+  Sample 057/100
+  Sample 058/100
+  Sample 059/100
+  Sample 060/100
+  Sample 061/100
+  Sample 062/100
+  Sample 063/100
+  Sample 064/100
+  Sample 065/100
+  Sample 066/100
+  Sample 067/100
+  Sample 068/100
+  Sample 069/100
+  Sample 070/100
+  Sample 071/100
+  Sample 072/100
+  Sample 073/100
+  Sample 074/100
+  Sample 075/100
+  Sample 076/100
+  Sample 077/100
+  Sample 078/100
+  Sample 079/100
+  Sample 080/100
+  Sample 081/100
+  Sample 082/100
+  Sample 083/100
+  Sample 084/100
+  Sample 085/100
+  Sample 086/100
+  Sample 087/100
+  Sample 088/100
+  Sample 089/100
+  Sample 090/100
+  Sample 091/100
+  Sample 092/100
+  Sample 093/100
+  Sample 094/100
+  Sample 095/100
+  Sample 096/100
+  Sample 097/100
+  Sample 098/100
+  Sample 099/100
+  Sample 100/100
+
+Sampling complete. Shape: (100, 3, 128, 128, 64)
+
+Computing metrics...
+
+=============================================
+  Method: DDPM Sampling
+  Test samples: 100
+  DVF resolution: 128x128x64
+  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.3851 mm
+  MAE  dy (AP):   3.6344 mm
+  MAE  dz (SI):   8.1342 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  10.2247 mm
+---------------------------------------------
+  TRE (grid landmarks):         8.7774 mm
+---------------------------------------------
+  Non-Jacobian fraction (normalised space):
+    Predicted:    0.000 %
+    GT:           0.000 %
+=============================================
+
+Metrics saved to: /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling/metrics.txt
+
+Visualising samples: [81, 14, 3]
+
+  Plotting sample 81...
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling/sample_081_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling/sample_081_compact.png
+
+  Plotting sample 14...
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling/sample_014_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling/sample_014_compact.png
+
+  Plotting sample 3...
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling/sample_003_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling/sample_003_compact.png
+
+============================================================
+Done. Results saved to: /mimer/NOBACKUP/groups/caim1/dafne/results/DDPM_Sampling
+Finished: 2026-04-05 12:31:13
+============================================================

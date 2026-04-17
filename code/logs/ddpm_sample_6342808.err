@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/sample.py", line 520, in <module>
+    main()
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/sample.py", line 434, in main
+    dvf_pred_norm = sample_simple(
+NameError: name 'sample_simple' is not defined

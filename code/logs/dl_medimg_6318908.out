@@ -1,0 +1,115 @@
+============================================================
+Run started: 2026-04-03 19:23:27
+Log file:    /mimer/NOBACKUP/groups/caim1/dafne/checkpoints/training.log
+============================================================
+Using device: cuda
+Train=425, Val=75, Test=100
+Computing global DVF mean/std over training set...
+DVF global mean=-3.190084, std=10.835453
+No checkpoint found — starting from scratch
+Epoch 001/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=1.21032 MSE=0.99360 Smooth=0.21672] | Val   [Total=1.81711 MSE=0.92164 Smooth=0.89547] *** BEST ***
+Epoch 002/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=1.05057 MSE=0.85434 Smooth=0.19623] | Val   [Total=1.53805 MSE=0.80023 Smooth=0.73782] *** BEST ***
+Epoch 003/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.88054 MSE=0.72589 Smooth=0.15466] | Val   [Total=1.27312 MSE=0.68514 Smooth=0.58798] *** BEST ***
+Epoch 004/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.72577 MSE=0.59835 Smooth=0.12742] | Val   [Total=0.99609 MSE=0.56364 Smooth=0.43245] *** BEST ***
+Epoch 005/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.58728 MSE=0.49997 Smooth=0.08731] | Val   [Total=0.81798 MSE=0.48585 Smooth=0.33214] *** BEST ***
+Epoch 006/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.50281 MSE=0.42690 Smooth=0.07590] | Val   [Total=0.68521 MSE=0.42350 Smooth=0.26171] *** BEST ***
+Epoch 007/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.41795 MSE=0.36518 Smooth=0.05276] | Val   [Total=0.57445 MSE=0.37221 Smooth=0.20224] *** BEST ***
+Epoch 008/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.35858 MSE=0.31335 Smooth=0.04523] | Val   [Total=0.49496 MSE=0.33494 Smooth=0.16002] *** BEST ***
+Epoch 009/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.31627 MSE=0.28120 Smooth=0.03507] | Val   [Total=0.43050 MSE=0.29901 Smooth=0.13148] *** BEST ***
+Epoch 010/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.26385 MSE=0.23719 Smooth=0.02666] | Val   [Total=0.38576 MSE=0.27785 Smooth=0.10791] *** BEST ***
+Epoch 011/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.25556 MSE=0.23158 Smooth=0.02397] | Val   [Total=0.35084 MSE=0.25584 Smooth=0.09499] *** BEST ***
+Epoch 012/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.24894 MSE=0.22916 Smooth=0.01979] | Val   [Total=0.31872 MSE=0.23582 Smooth=0.08290] *** BEST ***
+Epoch 013/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.22619 MSE=0.20275 Smooth=0.02344] | Val   [Total=0.29648 MSE=0.22365 Smooth=0.07283] *** BEST ***
+Epoch 014/1000 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.19834 MSE=0.17627 Smooth=0.02208] | Val   [Total=0.27657 MSE=0.21197 Smooth=0.06460] *** BEST ***
+Epoch 015/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.18341 MSE=0.16989 Smooth=0.01352] | Val   [Total=0.26152 MSE=0.20467 Smooth=0.05685] *** BEST ***
+Epoch 016/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.18121 MSE=0.16869 Smooth=0.01252] | Val   [Total=0.25104 MSE=0.19994 Smooth=0.05110] *** BEST ***
+Epoch 017/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.17962 MSE=0.16457 Smooth=0.01504] | Val   [Total=0.23456 MSE=0.18852 Smooth=0.04604] *** BEST ***
+Epoch 018/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.16773 MSE=0.15660 Smooth=0.01113] | Val   [Total=0.22697 MSE=0.18466 Smooth=0.04230] *** BEST ***
+Epoch 019/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.17546 MSE=0.16572 Smooth=0.00974] | Val   [Total=0.21962 MSE=0.18169 Smooth=0.03793] *** BEST ***
+Epoch 020/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.15013 MSE=0.14045 Smooth=0.00967] | Val   [Total=0.20680 MSE=0.17238 Smooth=0.03442] *** BEST ***
+Epoch 021/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.14780 MSE=0.13945 Smooth=0.00835] | Val   [Total=0.19960 MSE=0.16849 Smooth=0.03111] *** BEST ***
+Epoch 022/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.12831 MSE=0.11854 Smooth=0.00978] | Val   [Total=0.19020 MSE=0.16312 Smooth=0.02708] *** BEST ***
+Epoch 023/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.13276 MSE=0.12575 Smooth=0.00700] | Val   [Total=0.18313 MSE=0.15851 Smooth=0.02462] *** BEST ***
+Epoch 024/1000 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.12061 MSE=0.11542 Smooth=0.00519] | Val   [Total=0.18202 MSE=0.15868 Smooth=0.02335] *** BEST ***
+Epoch 025/1000 | λ=1.00e-04 | LR=9.98e-05 | Train [Total=0.11586 MSE=0.11164 Smooth=0.00422] | Val   [Total=0.17397 MSE=0.15227 Smooth=0.02169] *** BEST ***
+Epoch 026/1000 | λ=1.00e-04 | LR=9.98e-05 | Train [Total=0.10819 MSE=0.10317 Smooth=0.00502] | Val   [Total=0.16712 MSE=0.14759 Smooth=0.01953] *** BEST ***
+Epoch 027/1000 | λ=1.00e-04 | LR=9.98e-05 | Train [Total=0.11484 MSE=0.11064 Smooth=0.00420] | Val   [Total=0.16264 MSE=0.14493 Smooth=0.01771] *** BEST ***
+Epoch 028/1000 | λ=1.00e-04 | LR=9.98e-05 | Train [Total=0.11600 MSE=0.11126 Smooth=0.00475] | Val   [Total=0.15752 MSE=0.14115 Smooth=0.01637] *** BEST ***
+Epoch 029/1000 | λ=1.00e-04 | LR=9.98e-05 | Train [Total=0.10798 MSE=0.10392 Smooth=0.00406] | Val   [Total=0.15324 MSE=0.13771 Smooth=0.01553] *** BEST ***
+Epoch 030/1000 | λ=1.00e-04 | LR=9.98e-05 | Train [Total=0.09505 MSE=0.09196 Smooth=0.00310] | Val   [Total=0.15104 MSE=0.13632 Smooth=0.01472] *** BEST ***
+Epoch 031/1000 | λ=1.00e-04 | LR=9.98e-05 | Train [Total=0.09764 MSE=0.09460 Smooth=0.00303] | Val   [Total=0.14676 MSE=0.13291 Smooth=0.01385] *** BEST ***
+Epoch 032/1000 | λ=1.00e-04 | LR=9.98e-05 | Train [Total=0.07774 MSE=0.07431 Smooth=0.00343] | Val   [Total=0.14368 MSE=0.13076 Smooth=0.01292] *** BEST ***
+Epoch 033/1000 | λ=1.00e-04 | LR=9.97e-05 | Train [Total=0.09699 MSE=0.09328 Smooth=0.00371] | Val   [Total=0.14466 MSE=0.13191 Smooth=0.01274]
+Epoch 034/1000 | λ=1.00e-04 | LR=9.97e-05 | Train [Total=0.10233 MSE=0.09925 Smooth=0.00308] | Val   [Total=0.14041 MSE=0.12777 Smooth=0.01264] *** BEST ***
+Epoch 035/1000 | λ=1.00e-04 | LR=9.97e-05 | Train [Total=0.09710 MSE=0.09427 Smooth=0.00282] | Val   [Total=0.13820 MSE=0.12638 Smooth=0.01182] *** BEST ***
+Epoch 036/1000 | λ=1.00e-04 | LR=9.97e-05 | Train [Total=0.09363 MSE=0.09112 Smooth=0.00251] | Val   [Total=0.13621 MSE=0.12475 Smooth=0.01146] *** BEST ***
+Epoch 037/1000 | λ=1.00e-04 | LR=9.97e-05 | Train [Total=0.08850 MSE=0.08604 Smooth=0.00245] | Val   [Total=0.13287 MSE=0.12179 Smooth=0.01108] *** BEST ***
+Epoch 038/1000 | λ=1.00e-04 | LR=9.96e-05 | Train [Total=0.08982 MSE=0.08675 Smooth=0.00307] | Val   [Total=0.13003 MSE=0.11929 Smooth=0.01074] *** BEST ***
+Epoch 039/1000 | λ=1.00e-04 | LR=9.96e-05 | Train [Total=0.07391 MSE=0.07127 Smooth=0.00263] | Val   [Total=0.12808 MSE=0.11796 Smooth=0.01012] *** BEST ***
+Epoch 040/1000 | λ=1.00e-04 | LR=9.96e-05 | Train [Total=0.08951 MSE=0.08690 Smooth=0.00261] | Val   [Total=0.12684 MSE=0.11699 Smooth=0.00986] *** BEST ***
+Epoch 041/1000 | λ=1.00e-04 | LR=9.96e-05 | Train [Total=0.09249 MSE=0.08987 Smooth=0.00262] | Val   [Total=0.12550 MSE=0.11560 Smooth=0.00990] *** BEST ***
+Epoch 042/1000 | λ=1.00e-04 | LR=9.96e-05 | Train [Total=0.09181 MSE=0.08926 Smooth=0.00255] | Val   [Total=0.12363 MSE=0.11361 Smooth=0.01002] *** BEST ***
+Epoch 043/1000 | λ=1.00e-04 | LR=9.95e-05 | Train [Total=0.06068 MSE=0.05748 Smooth=0.00320] | Val   [Total=0.12318 MSE=0.11402 Smooth=0.00916] *** BEST ***
+Epoch 044/1000 | λ=1.00e-04 | LR=9.95e-05 | Train [Total=0.07119 MSE=0.06911 Smooth=0.00208] | Val   [Total=0.12258 MSE=0.11352 Smooth=0.00906] *** BEST ***
+Epoch 045/1000 | λ=1.00e-04 | LR=9.95e-05 | Train [Total=0.08714 MSE=0.08437 Smooth=0.00276] | Val   [Total=0.12047 MSE=0.11137 Smooth=0.00910] *** BEST ***
+Epoch 046/1000 | λ=1.00e-04 | LR=9.95e-05 | Train [Total=0.07209 MSE=0.06996 Smooth=0.00214] | Val   [Total=0.11934 MSE=0.11031 Smooth=0.00903] *** BEST ***
+Epoch 047/1000 | λ=1.00e-04 | LR=9.95e-05 | Train [Total=0.06560 MSE=0.06346 Smooth=0.00215] | Val   [Total=0.11770 MSE=0.10834 Smooth=0.00936] *** BEST ***
+Epoch 048/1000 | λ=1.00e-04 | LR=9.94e-05 | Train [Total=0.07663 MSE=0.07402 Smooth=0.00261] | Val   [Total=0.11858 MSE=0.11015 Smooth=0.00843]
+Epoch 049/1000 | λ=1.00e-04 | LR=9.94e-05 | Train [Total=0.08492 MSE=0.08238 Smooth=0.00254] | Val   [Total=0.11891 MSE=0.11008 Smooth=0.00883]
+Epoch 050/1000 | λ=1.00e-04 | LR=9.94e-05 | Train [Total=0.07212 MSE=0.07002 Smooth=0.00210] | Val   [Total=0.11460 MSE=0.10605 Smooth=0.00854] *** BEST ***
+Epoch 051/1000 | λ=1.00e-04 | LR=9.94e-05 | Train [Total=0.08911 MSE=0.08640 Smooth=0.00271] | Val   [Total=0.11268 MSE=0.10434 Smooth=0.00835] *** BEST ***
+Epoch 052/1000 | λ=1.00e-04 | LR=9.93e-05 | Train [Total=0.07692 MSE=0.07503 Smooth=0.00188] | Val   [Total=0.11210 MSE=0.10379 Smooth=0.00831] *** BEST ***
+Epoch 053/1000 | λ=1.00e-04 | LR=9.93e-05 | Train [Total=0.06408 MSE=0.06187 Smooth=0.00221] | Val   [Total=0.11111 MSE=0.10306 Smooth=0.00805] *** BEST ***
+Epoch 054/1000 | λ=1.00e-04 | LR=9.93e-05 | Train [Total=0.06492 MSE=0.06316 Smooth=0.00176] | Val   [Total=0.11136 MSE=0.10260 Smooth=0.00876]
+Epoch 055/1000 | λ=1.00e-04 | LR=9.93e-05 | Train [Total=0.07520 MSE=0.07335 Smooth=0.00185] | Val   [Total=0.10912 MSE=0.10120 Smooth=0.00792] *** BEST ***
+Epoch 056/1000 | λ=1.00e-04 | LR=9.92e-05 | Train [Total=0.07680 MSE=0.07487 Smooth=0.00192] | Val   [Total=0.10980 MSE=0.10184 Smooth=0.00796]
+Epoch 057/1000 | λ=1.00e-04 | LR=9.92e-05 | Train [Total=0.07887 MSE=0.07674 Smooth=0.00213] | Val   [Total=0.10922 MSE=0.10079 Smooth=0.00843]
+Epoch 058/1000 | λ=1.00e-04 | LR=9.92e-05 | Train [Total=0.06756 MSE=0.06524 Smooth=0.00232] | Val   [Total=0.10627 MSE=0.09859 Smooth=0.00767] *** BEST ***
+Epoch 059/1000 | λ=1.00e-04 | LR=9.92e-05 | Train [Total=0.07543 MSE=0.07361 Smooth=0.00182] | Val   [Total=0.10735 MSE=0.09960 Smooth=0.00775]
+Epoch 060/1000 | λ=1.00e-04 | LR=9.91e-05 | Train [Total=0.06335 MSE=0.06131 Smooth=0.00204] | Val   [Total=0.10564 MSE=0.09789 Smooth=0.00776] *** BEST ***
+Epoch 061/1000 | λ=1.00e-04 | LR=9.91e-05 | Train [Total=0.05540 MSE=0.05340 Smooth=0.00201] | Val   [Total=0.10338 MSE=0.09640 Smooth=0.00698] *** BEST ***
+Epoch 062/1000 | λ=1.00e-04 | LR=9.91e-05 | Train [Total=0.05971 MSE=0.05770 Smooth=0.00201] | Val   [Total=0.10612 MSE=0.09804 Smooth=0.00809]
+Epoch 063/1000 | λ=1.00e-04 | LR=9.90e-05 | Train [Total=0.07519 MSE=0.07317 Smooth=0.00202] | Val   [Total=0.10204 MSE=0.09477 Smooth=0.00727] *** BEST ***
+Epoch 064/1000 | λ=1.00e-04 | LR=9.90e-05 | Train [Total=0.06719 MSE=0.06548 Smooth=0.00171] | Val   [Total=0.10179 MSE=0.09501 Smooth=0.00678] *** BEST ***
+Epoch 065/1000 | λ=1.00e-04 | LR=9.90e-05 | Train [Total=0.05774 MSE=0.05549 Smooth=0.00226] | Val   [Total=0.10000 MSE=0.09346 Smooth=0.00654] *** BEST ***
+Epoch 066/1000 | λ=1.00e-04 | LR=9.89e-05 | Train [Total=0.07547 MSE=0.07407 Smooth=0.00140] | Val   [Total=0.09885 MSE=0.09202 Smooth=0.00683] *** BEST ***
+Epoch 067/1000 | λ=1.00e-04 | LR=9.89e-05 | Train [Total=0.05735 MSE=0.05567 Smooth=0.00168] | Val   [Total=0.09882 MSE=0.09190 Smooth=0.00693] *** BEST ***
+Epoch 068/1000 | λ=1.00e-04 | LR=9.89e-05 | Train [Total=0.06082 MSE=0.05930 Smooth=0.00152] | Val   [Total=0.09701 MSE=0.09037 Smooth=0.00664] *** BEST ***
+Epoch 069/1000 | λ=1.00e-04 | LR=9.88e-05 | Train [Total=0.06062 MSE=0.05873 Smooth=0.00189] | Val   [Total=0.09581 MSE=0.08939 Smooth=0.00642] *** BEST ***
+Epoch 070/1000 | λ=1.00e-04 | LR=9.88e-05 | Train [Total=0.05785 MSE=0.05611 Smooth=0.00173] | Val   [Total=0.09585 MSE=0.08963 Smooth=0.00622]
+Epoch 071/1000 | λ=1.00e-04 | LR=9.88e-05 | Train [Total=0.05903 MSE=0.05747 Smooth=0.00157] | Val   [Total=0.09384 MSE=0.08757 Smooth=0.00627] *** BEST ***
+Epoch 072/1000 | λ=1.00e-04 | LR=9.87e-05 | Train [Total=0.05948 MSE=0.05763 Smooth=0.00186] | Val   [Total=0.09301 MSE=0.08716 Smooth=0.00585] *** BEST ***
+Epoch 073/1000 | λ=1.00e-04 | LR=9.87e-05 | Train [Total=0.06178 MSE=0.06007 Smooth=0.00170] | Val   [Total=0.09270 MSE=0.08656 Smooth=0.00614] *** BEST ***
+Epoch 074/1000 | λ=1.00e-04 | LR=9.87e-05 | Train [Total=0.06317 MSE=0.06172 Smooth=0.00145] | Val   [Total=0.09077 MSE=0.08492 Smooth=0.00585] *** BEST ***
+Epoch 075/1000 | λ=1.00e-04 | LR=9.86e-05 | Train [Total=0.05372 MSE=0.05229 Smooth=0.00143] | Val   [Total=0.08923 MSE=0.08364 Smooth=0.00559] *** BEST ***
+Epoch 076/1000 | λ=1.00e-04 | LR=9.86e-05 | Train [Total=0.05801 MSE=0.05659 Smooth=0.00143] | Val   [Total=0.08841 MSE=0.08283 Smooth=0.00558] *** BEST ***
+Epoch 077/1000 | λ=1.00e-04 | LR=9.86e-05 | Train [Total=0.06218 MSE=0.06085 Smooth=0.00133] | Val   [Total=0.08881 MSE=0.08326 Smooth=0.00555]
+Epoch 078/1000 | λ=1.00e-04 | LR=9.85e-05 | Train [Total=0.05155 MSE=0.04991 Smooth=0.00164] | Val   [Total=0.08777 MSE=0.08242 Smooth=0.00535] *** BEST ***
+Epoch 079/1000 | λ=1.00e-04 | LR=9.85e-05 | Train [Total=0.04864 MSE=0.04716 Smooth=0.00147] | Val   [Total=0.08652 MSE=0.08131 Smooth=0.00522] *** BEST ***
+Epoch 080/1000 | λ=1.00e-04 | LR=9.84e-05 | Train [Total=0.06100 MSE=0.05976 Smooth=0.00124] | Val   [Total=0.08532 MSE=0.08001 Smooth=0.00531] *** BEST ***
+Epoch 081/1000 | λ=1.00e-04 | LR=9.84e-05 | Train [Total=0.04749 MSE=0.04629 Smooth=0.00120] | Val   [Total=0.08510 MSE=0.07992 Smooth=0.00518] *** BEST ***
+Epoch 082/1000 | λ=1.00e-04 | LR=9.84e-05 | Train [Total=0.05014 MSE=0.04846 Smooth=0.00168] | Val   [Total=0.08377 MSE=0.07873 Smooth=0.00504] *** BEST ***
+Epoch 083/1000 | λ=1.00e-04 | LR=9.83e-05 | Train [Total=0.04914 MSE=0.04756 Smooth=0.00159] | Val   [Total=0.08345 MSE=0.07848 Smooth=0.00497] *** BEST ***
+Epoch 084/1000 | λ=1.00e-04 | LR=9.83e-05 | Train [Total=0.05449 MSE=0.05305 Smooth=0.00144] | Val   [Total=0.08662 MSE=0.08154 Smooth=0.00508]
+Epoch 085/1000 | λ=1.00e-04 | LR=9.82e-05 | Train [Total=0.04181 MSE=0.04051 Smooth=0.00130] | Val   [Total=0.08450 MSE=0.07971 Smooth=0.00479]
+Epoch 086/1000 | λ=1.00e-04 | LR=9.82e-05 | Train [Total=0.05574 MSE=0.05453 Smooth=0.00121] | Val   [Total=0.08148 MSE=0.07651 Smooth=0.00497] *** BEST ***
+Epoch 087/1000 | λ=1.00e-04 | LR=9.82e-05 | Train [Total=0.04842 MSE=0.04673 Smooth=0.00169] | Val   [Total=0.08054 MSE=0.07569 Smooth=0.00485] *** BEST ***
+Epoch 088/1000 | λ=1.00e-04 | LR=9.81e-05 | Train [Total=0.05313 MSE=0.05185 Smooth=0.00128] | Val   [Total=0.07879 MSE=0.07410 Smooth=0.00469] *** BEST ***
+Epoch 089/1000 | λ=1.00e-04 | LR=9.81e-05 | Train [Total=0.05891 MSE=0.05774 Smooth=0.00118] | Val   [Total=0.07784 MSE=0.07310 Smooth=0.00474] *** BEST ***
+Epoch 090/1000 | λ=1.00e-04 | LR=9.80e-05 | Train [Total=0.04200 MSE=0.04083 Smooth=0.00116] | Val   [Total=0.07709 MSE=0.07252 Smooth=0.00457] *** BEST ***
+Epoch 091/1000 | λ=1.00e-04 | LR=9.80e-05 | Train [Total=0.04722 MSE=0.04595 Smooth=0.00127] | Val   [Total=0.07653 MSE=0.07189 Smooth=0.00464] *** BEST ***
+Epoch 092/1000 | λ=1.00e-04 | LR=9.79e-05 | Train [Total=0.04957 MSE=0.04822 Smooth=0.00134] | Val   [Total=0.07644 MSE=0.07192 Smooth=0.00452] *** BEST ***
+Epoch 093/1000 | λ=1.00e-04 | LR=9.79e-05 | Train [Total=0.04350 MSE=0.04251 Smooth=0.00099] | Val   [Total=0.07873 MSE=0.07422 Smooth=0.00452]
+Epoch 094/1000 | λ=1.00e-04 | LR=9.79e-05 | Train [Total=0.04800 MSE=0.04705 Smooth=0.00095] | Val   [Total=0.07522 MSE=0.07068 Smooth=0.00454] *** BEST ***
+Epoch 095/1000 | λ=1.00e-04 | LR=9.78e-05 | Train [Total=0.05532 MSE=0.05401 Smooth=0.00131] | Val   [Total=0.07309 MSE=0.06858 Smooth=0.00451] *** BEST ***
+Epoch 096/1000 | λ=1.00e-04 | LR=9.78e-05 | Train [Total=0.04176 MSE=0.04077 Smooth=0.00099] | Val   [Total=0.07324 MSE=0.06873 Smooth=0.00451]
+Epoch 097/1000 | λ=1.00e-04 | LR=9.77e-05 | Train [Total=0.03611 MSE=0.03499 Smooth=0.00112] | Val   [Total=0.07232 MSE=0.06794 Smooth=0.00437] *** BEST ***
+Epoch 098/1000 | λ=1.00e-04 | LR=9.77e-05 | Train [Total=0.06998 MSE=0.06883 Smooth=0.00114] | Val   [Total=0.07124 MSE=0.06663 Smooth=0.00461] *** BEST ***
+Epoch 099/1000 | λ=1.00e-04 | LR=9.76e-05 | Train [Total=0.03933 MSE=0.03842 Smooth=0.00091] | Val   [Total=0.07074 MSE=0.06638 Smooth=0.00436] *** BEST ***
+Epoch 100/1000 | λ=1.00e-04 | LR=9.76e-05 | Train [Total=0.05773 MSE=0.05675 Smooth=0.00098] | Val   [Total=0.06937 MSE=0.06498 Smooth=0.00440] *** BEST ***
+Epoch 101/1000 | λ=1.00e-04 | LR=9.75e-05 | Train [Total=0.04127 MSE=0.03988 Smooth=0.00139] | Val   [Total=0.06873 MSE=0.06441 Smooth=0.00432] *** BEST ***
+Epoch 102/1000 | λ=1.00e-04 | LR=9.75e-05 | Train [Total=0.03707 MSE=0.03597 Smooth=0.00110] | Val   [Total=0.06729 MSE=0.06301 Smooth=0.00428] *** BEST ***
+Epoch 103/1000 | λ=1.00e-04 | LR=9.74e-05 | Train [Total=0.06259 MSE=0.06142 Smooth=0.00117] | Val   [Total=0.06807 MSE=0.06356 Smooth=0.00450]
+Epoch 104/1000 | λ=1.00e-04 | LR=9.74e-05 | Train [Total=0.04433 MSE=0.04295 Smooth=0.00138] | Val   [Total=0.06834 MSE=0.06381 Smooth=0.00452]
+Epoch 105/1000 | λ=1.00e-04 | LR=9.73e-05 | Train [Total=0.03536 MSE=0.03416 Smooth=0.00120] | Val   [Total=0.06732 MSE=0.06296 Smooth=0.00436]
+Epoch 106/1000 | λ=1.00e-04 | LR=9.73e-05 | Train [Total=0.04915 MSE=0.04822 Smooth=0.00093] | Val   [Total=0.06723 MSE=0.06298 Smooth=0.00425] *** BEST ***

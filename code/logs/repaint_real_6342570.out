@@ -1,0 +1,82 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6342570
+============================================================
+RePaint Real Data — 2026-04-06 17:32:17
+Resampling steps: 5  |  No temperature scaling
+Test cases: ['copd09', 'copd10']
+============================================================
+Device: cuda
+Real DVF stats: mean=1.2394 mm, std=15.0029 mm
+Loaded checkpoint epoch 138: /mimer/NOBACKUP/groups/caim1/dafne/checkpoints_real/best_model.pth
+
+────────────────────────────────────────────────────────────
+Processing copd09 (1/2)...
+  Motion mask: 1048558 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 63.1s
+  Loaded 300 landmarks for copd9
+
+=============================================
+  Case: copd09
+  Method: RePaint (steps=5, no temperature)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=1.239 mm, std=15.003 mm (global real)
+  DVF resolution: 128x128x64  |  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   1.8373 mm
+  MAE  dy (AP):   2.8888 mm
+  MAE  dz (SI):   2.7889 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   5.0293 mm
+---------------------------------------------
+  TRE (landmarks):             14.8014 mm
+  TRE initial (no reg):        14.8600 mm
+  TRE after GT registration:    0.6412 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/wo_border/copd09_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/wo_border/copd09_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd10 (2/2)...
+  Motion mask: 1048564 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 62.7s
+  Loaded 300 landmarks for copd10
+
+=============================================
+  Case: copd10
+  Method: RePaint (steps=5, no temperature)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=1.239 mm, std=15.003 mm (global real)
+  DVF resolution: 128x128x64  |  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.5034 mm
+  MAE  dy (AP):   3.5157 mm
+  MAE  dz (SI):   2.5829 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   5.7576 mm
+---------------------------------------------
+  TRE (landmarks):             22.9243 mm
+  TRE initial (no reg):        21.8060 mm
+  TRE after GT registration:    0.8498 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/wo_border/copd10_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/wo_border/copd10_fig2_components.png
+
+============================================================
+SUMMARY
+============================================================
+  MAE dx: 2.1703 mm
+  MAE dy: 3.2023 mm
+  MAE dz: 2.6859 mm
+  MDE:    5.3935 mm
+  TRE:    18.8629 mm
+
+
+Done. Results: /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/wo_border
+Finished: 2026-04-06 17:34:30

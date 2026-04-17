@@ -1,0 +1,45 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6427758
+============================================================
+DDPM Sampling — started 2026-04-17 10:22:32
+Log: /mimer/NOBACKUP/groups/caim1/dafne/results/16_condchannels/DDPM_Sampling/sampling.log
+============================================================
+Device: cuda
+Voxel spacing (downsampled): (1.25, 1.25, 5.0) mm
+DVF stats: mean=-3.174312, std=10.820530
+Test samples: 100
+Loaded: /mimer/NOBACKUP/groups/caim1/dafne/checkpoints/16_condchannels/best_model.pth
+
+Running DDPM sampling on 100 test samples...
+  Sample 001/100
+  Sample 002/100
+  Sample 003/100
+  Sample 004/100
+  Sample 005/100
+  Sample 006/100
+  Sample 007/100
+  Sample 008/100
+  Sample 009/100
+  Sample 010/100
+  Sample 011/100
+  Sample 012/100
+  Sample 013/100
+  Sample 014/100
+  Sample 015/100
+  Sample 016/100
+  Sample 017/100
+  Sample 018/100
+  Sample 019/100
+  Sample 020/100
+  Sample 021/100
+  Sample 022/100
+  Sample 023/100
+  Sample 024/100
+  Sample 025/100
+  Sample 026/100
+  Sample 027/100
+  Sample 028/100
+  Sample 029/100
+  Sample 030/100
+  Sample 031/100
+  Sample 032/100
+  Sample 033/100

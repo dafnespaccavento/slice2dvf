@@ -1,0 +1,158 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6336003
+============================================================
+RePaint Sampling — started 2026-04-05 12:14:02
+Log: /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling/sampling.log
+Resampling steps: 4
+============================================================
+Device: cuda
+Voxel spacing (downsampled): (1.25, 1.25, 5.0) mm
+DVF stats: mean=-3.174312, std=10.820530
+Test samples: 100
+Loaded: /mimer/NOBACKUP/groups/caim1/dafne/checkpoints/best_model.pth
+
+Running RePaint sampling (resampling_steps=4) on 100 test samples...
+  Sample 001/100 | elapsed: 0:00:50 | per sample: 51s | ETA: 1:23:45
+  Sample 002/100 | elapsed: 0:01:41 | per sample: 51s | ETA: 1:22:31
+  Sample 003/100 | elapsed: 0:02:31 | per sample: 50s | ETA: 1:21:32
+  Sample 004/100 | elapsed: 0:03:21 | per sample: 50s | ETA: 1:20:38
+  Sample 005/100 | elapsed: 0:04:11 | per sample: 50s | ETA: 1:19:45
+  Sample 006/100 | elapsed: 0:05:02 | per sample: 50s | ETA: 1:18:54
+  Sample 007/100 | elapsed: 0:05:52 | per sample: 50s | ETA: 1:18:02
+  Sample 008/100 | elapsed: 0:06:42 | per sample: 50s | ETA: 1:17:11
+  Sample 009/100 | elapsed: 0:07:33 | per sample: 50s | ETA: 1:16:20
+  Sample 010/100 | elapsed: 0:08:23 | per sample: 50s | ETA: 1:15:30
+  Sample 011/100 | elapsed: 0:09:13 | per sample: 50s | ETA: 1:14:39
+  Sample 012/100 | elapsed: 0:10:03 | per sample: 50s | ETA: 1:13:48
+  Sample 013/100 | elapsed: 0:10:54 | per sample: 50s | ETA: 1:12:58
+  Sample 014/100 | elapsed: 0:11:44 | per sample: 50s | ETA: 1:12:07
+  Sample 015/100 | elapsed: 0:12:34 | per sample: 50s | ETA: 1:11:17
+  Sample 016/100 | elapsed: 0:13:25 | per sample: 50s | ETA: 1:10:26
+  Sample 017/100 | elapsed: 0:14:15 | per sample: 50s | ETA: 1:09:36
+  Sample 018/100 | elapsed: 0:15:05 | per sample: 50s | ETA: 1:08:45
+  Sample 019/100 | elapsed: 0:15:55 | per sample: 50s | ETA: 1:07:55
+  Sample 020/100 | elapsed: 0:16:46 | per sample: 50s | ETA: 1:07:04
+  Sample 021/100 | elapsed: 0:17:36 | per sample: 50s | ETA: 1:06:14
+  Sample 022/100 | elapsed: 0:18:26 | per sample: 50s | ETA: 1:05:24
+  Sample 023/100 | elapsed: 0:19:17 | per sample: 50s | ETA: 1:04:33
+  Sample 024/100 | elapsed: 0:20:07 | per sample: 50s | ETA: 1:03:43
+  Sample 025/100 | elapsed: 0:20:57 | per sample: 50s | ETA: 1:02:53
+  Sample 026/100 | elapsed: 0:21:47 | per sample: 50s | ETA: 1:02:02
+  Sample 027/100 | elapsed: 0:22:38 | per sample: 50s | ETA: 1:01:12
+  Sample 028/100 | elapsed: 0:23:28 | per sample: 50s | ETA: 1:00:22
+  Sample 029/100 | elapsed: 0:24:18 | per sample: 50s | ETA: 0:59:31
+  Sample 030/100 | elapsed: 0:25:09 | per sample: 50s | ETA: 0:58:41
+  Sample 031/100 | elapsed: 0:25:59 | per sample: 50s | ETA: 0:57:50
+  Sample 032/100 | elapsed: 0:26:49 | per sample: 50s | ETA: 0:57:00
+  Sample 033/100 | elapsed: 0:27:40 | per sample: 50s | ETA: 0:56:10
+  Sample 034/100 | elapsed: 0:28:30 | per sample: 50s | ETA: 0:55:20
+  Sample 035/100 | elapsed: 0:29:20 | per sample: 50s | ETA: 0:54:29
+  Sample 036/100 | elapsed: 0:30:10 | per sample: 50s | ETA: 0:53:39
+  Sample 037/100 | elapsed: 0:31:01 | per sample: 50s | ETA: 0:52:49
+  Sample 038/100 | elapsed: 0:31:51 | per sample: 50s | ETA: 0:51:58
+  Sample 039/100 | elapsed: 0:32:41 | per sample: 50s | ETA: 0:51:08
+  Sample 040/100 | elapsed: 0:33:32 | per sample: 50s | ETA: 0:50:18
+  Sample 041/100 | elapsed: 0:34:22 | per sample: 50s | ETA: 0:49:27
+  Sample 042/100 | elapsed: 0:35:12 | per sample: 50s | ETA: 0:48:37
+  Sample 043/100 | elapsed: 0:36:02 | per sample: 50s | ETA: 0:47:47
+  Sample 044/100 | elapsed: 0:36:53 | per sample: 50s | ETA: 0:46:56
+  Sample 045/100 | elapsed: 0:37:43 | per sample: 50s | ETA: 0:46:06
+  Sample 046/100 | elapsed: 0:38:33 | per sample: 50s | ETA: 0:45:16
+  Sample 047/100 | elapsed: 0:39:24 | per sample: 50s | ETA: 0:44:25
+  Sample 048/100 | elapsed: 0:40:14 | per sample: 50s | ETA: 0:43:35
+  Sample 049/100 | elapsed: 0:41:04 | per sample: 50s | ETA: 0:42:45
+  Sample 050/100 | elapsed: 0:41:54 | per sample: 50s | ETA: 0:41:54
+  Sample 051/100 | elapsed: 0:42:45 | per sample: 50s | ETA: 0:41:04
+  Sample 052/100 | elapsed: 0:43:35 | per sample: 50s | ETA: 0:40:14
+  Sample 053/100 | elapsed: 0:44:25 | per sample: 50s | ETA: 0:39:24
+  Sample 054/100 | elapsed: 0:45:16 | per sample: 50s | ETA: 0:38:33
+  Sample 055/100 | elapsed: 0:46:06 | per sample: 50s | ETA: 0:37:43
+  Sample 056/100 | elapsed: 0:46:56 | per sample: 50s | ETA: 0:36:53
+  Sample 057/100 | elapsed: 0:47:46 | per sample: 50s | ETA: 0:36:02
+  Sample 058/100 | elapsed: 0:48:37 | per sample: 50s | ETA: 0:35:12
+  Sample 059/100 | elapsed: 0:49:27 | per sample: 50s | ETA: 0:34:22
+  Sample 060/100 | elapsed: 0:50:17 | per sample: 50s | ETA: 0:33:31
+  Sample 061/100 | elapsed: 0:51:08 | per sample: 50s | ETA: 0:32:41
+  Sample 062/100 | elapsed: 0:51:58 | per sample: 50s | ETA: 0:31:51
+  Sample 063/100 | elapsed: 0:52:48 | per sample: 50s | ETA: 0:31:01
+  Sample 064/100 | elapsed: 0:53:39 | per sample: 50s | ETA: 0:30:10
+  Sample 065/100 | elapsed: 0:54:29 | per sample: 50s | ETA: 0:29:20
+  Sample 066/100 | elapsed: 0:55:19 | per sample: 50s | ETA: 0:28:30
+  Sample 067/100 | elapsed: 0:56:09 | per sample: 50s | ETA: 0:27:39
+  Sample 068/100 | elapsed: 0:57:00 | per sample: 50s | ETA: 0:26:49
+  Sample 069/100 | elapsed: 0:57:50 | per sample: 50s | ETA: 0:25:59
+  Sample 070/100 | elapsed: 0:58:40 | per sample: 50s | ETA: 0:25:08
+  Sample 071/100 | elapsed: 0:59:31 | per sample: 50s | ETA: 0:24:18
+  Sample 072/100 | elapsed: 1:00:21 | per sample: 50s | ETA: 0:23:28
+  Sample 073/100 | elapsed: 1:01:11 | per sample: 50s | ETA: 0:22:37
+  Sample 074/100 | elapsed: 1:02:01 | per sample: 50s | ETA: 0:21:47
+  Sample 075/100 | elapsed: 1:02:52 | per sample: 50s | ETA: 0:20:57
+  Sample 076/100 | elapsed: 1:03:42 | per sample: 50s | ETA: 0:20:07
+  Sample 077/100 | elapsed: 1:04:32 | per sample: 50s | ETA: 0:19:16
+  Sample 078/100 | elapsed: 1:05:23 | per sample: 50s | ETA: 0:18:26
+  Sample 079/100 | elapsed: 1:06:13 | per sample: 50s | ETA: 0:17:36
+  Sample 080/100 | elapsed: 1:07:03 | per sample: 50s | ETA: 0:16:45
+  Sample 081/100 | elapsed: 1:07:53 | per sample: 50s | ETA: 0:15:55
+  Sample 082/100 | elapsed: 1:08:44 | per sample: 50s | ETA: 0:15:05
+  Sample 083/100 | elapsed: 1:09:34 | per sample: 50s | ETA: 0:14:15
+  Sample 084/100 | elapsed: 1:10:24 | per sample: 50s | ETA: 0:13:24
+  Sample 085/100 | elapsed: 1:11:15 | per sample: 50s | ETA: 0:12:34
+  Sample 086/100 | elapsed: 1:12:05 | per sample: 50s | ETA: 0:11:44
+  Sample 087/100 | elapsed: 1:12:55 | per sample: 50s | ETA: 0:10:53
+  Sample 088/100 | elapsed: 1:13:45 | per sample: 50s | ETA: 0:10:03
+  Sample 089/100 | elapsed: 1:14:36 | per sample: 50s | ETA: 0:09:13
+  Sample 090/100 | elapsed: 1:15:26 | per sample: 50s | ETA: 0:08:22
+  Sample 091/100 | elapsed: 1:16:16 | per sample: 50s | ETA: 0:07:32
+  Sample 092/100 | elapsed: 1:17:07 | per sample: 50s | ETA: 0:06:42
+  Sample 093/100 | elapsed: 1:17:57 | per sample: 50s | ETA: 0:05:52
+  Sample 094/100 | elapsed: 1:18:47 | per sample: 50s | ETA: 0:05:01
+  Sample 095/100 | elapsed: 1:19:38 | per sample: 50s | ETA: 0:04:11
+  Sample 096/100 | elapsed: 1:20:28 | per sample: 50s | ETA: 0:03:21
+  Sample 097/100 | elapsed: 1:21:18 | per sample: 50s | ETA: 0:02:30
+  Sample 098/100 | elapsed: 1:22:08 | per sample: 50s | ETA: 0:01:40
+  Sample 099/100 | elapsed: 1:22:59 | per sample: 50s | ETA: 0:00:50
+  Sample 100/100 | elapsed: 1:23:49 | per sample: 50s | ETA: 0:00:00
+
+Sampling complete. Shape: (100, 3, 128, 128, 64)
+
+Computing metrics...
+
+=============================================
+  Method: RePaint Sampling
+  Resampling steps: 4
+  Test samples: 100
+  DVF resolution: 128x128x64
+  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.0744 mm
+  MAE  dy (AP):   3.7546 mm
+  MAE  dz (SI):   5.5773 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   8.0199 mm
+---------------------------------------------
+  TRE (grid landmarks):         8.1092 mm
+---------------------------------------------
+  Non-Jacobian fraction (normalised space):
+    Predicted:    0.000 %
+    GT:           0.000 %
+=============================================
+
+Metrics saved to: /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling/metrics.txt
+
+Visualising samples: [81, 14, 3]
+
+  Plotting sample 81...
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling/sample_081_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling/sample_081_compact.png
+
+  Plotting sample 14...
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling/sample_014_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling/sample_014_compact.png
+
+  Plotting sample 3...
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling/sample_003_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling/sample_003_compact.png
+
+============================================================
+Done. Results saved to: /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Sampling
+Finished: 2026-04-05 13:38:01
+============================================================

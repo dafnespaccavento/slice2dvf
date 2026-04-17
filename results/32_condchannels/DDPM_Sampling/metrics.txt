@@ -1,0 +1,18 @@
+=============================================
+  Method: DDPM Sampling
+  Test samples: 100
+  DVF resolution: 128x128x64
+  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.3915 mm
+  MAE  dy (AP):   3.5114 mm
+  MAE  dz (SI):   8.2398 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  10.2281 mm
+---------------------------------------------
+  TRE (grid landmarks):         8.2689 mm
+---------------------------------------------
+  Non-Jacobian fraction (normalised space):
+    Predicted:    0.000 %
+    GT:           0.000 %
+=============================================

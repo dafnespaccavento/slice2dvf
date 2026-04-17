@@ -1,0 +1,13 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6342261
+============================================================
+Real Data Fine-tuning — started 2026-04-06 16:15:22
+Log: /mimer/NOBACKUP/groups/caim1/dafne/checkpoints_real/finetune_real.log
+Pretrained: /mimer/NOBACKUP/groups/caim1/dafne/checkpoints/best_model.pth
+Saving to:  /mimer/NOBACKUP/groups/caim1/dafne/checkpoints_real
+LR=1e-05  WD=0.0001  epochs=150  smooth_lambda=1e-07
+Train cases: ['copd01', 'copd02', 'copd03', 'copd04', 'copd05', 'copd06', 'copd07', 'copd08']
+Test  cases: ['copd09', 'copd10']  (never used in training)
+============================================================
+Device: cuda
+
+=== Loading training cases ===

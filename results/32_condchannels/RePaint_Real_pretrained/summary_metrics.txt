@@ -1,0 +1,7 @@
+SUMMARY — RePaint Real Data
+
+  MAE dx: 2.6231 mm
+  MAE dy: 5.7451 mm
+  MAE dz: 6.3899 mm
+  MDE:    10.2557 mm
+  TRE:    26.0738 mm

@@ -1,0 +1,8 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6421587
+============================================================
+RePaint Real Data — 2026-04-16 14:19:29
+Resampling steps: 5  |  No temperature scaling
+Test cases: ['copd01', 'copd02', 'copd03', 'copd04', 'copd05', 'copd06', 'copd07', 'copd08', 'copd09', 'copd10']
+============================================================
+Device: cuda
+Real DVF stats: mean=-3.1743 mm, std=10.8205 mm

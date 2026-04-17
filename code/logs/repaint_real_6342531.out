@@ -1,0 +1,74 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6342531
+============================================================
+RePaint Real Data — 2026-04-06 17:19:00
+Resampling steps: 5  |  No temperature scaling
+Test cases: ['copd09', 'copd10']
+============================================================
+Device: cuda
+Real DVF stats: mean=1.2394 mm, std=15.0029 mm
+Loaded checkpoint epoch 138: /mimer/NOBACKUP/groups/caim1/dafne/checkpoints_real/best_model.pth
+
+────────────────────────────────────────────────────────────
+Processing copd09 (1/2)...
+  Running RePaint (steps=5)...
+  Done in 63.0s
+  Loaded 300 landmarks for copd9
+
+=============================================
+  Case: copd09
+  Method: RePaint (steps=5, no temperature)
+  Normalisation: mean=1.239 mm, std=15.003 mm (global real)
+  DVF resolution: 128x128x64  |  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   1.6120 mm
+  MAE  dy (AP):   2.9126 mm
+  MAE  dz (SI):   2.6072 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   4.7931 mm
+---------------------------------------------
+  TRE (landmarks):             14.3929 mm
+  TRE initial (no reg):        14.8600 mm
+  TRE after GT registration:    0.6412 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/copd09_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/copd09_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd10 (2/2)...
+  Running RePaint (steps=5)...
+  Done in 62.7s
+  Loaded 300 landmarks for copd10
+
+=============================================
+  Case: copd10
+  Method: RePaint (steps=5, no temperature)
+  Normalisation: mean=1.239 mm, std=15.003 mm (global real)
+  DVF resolution: 128x128x64  |  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.6078 mm
+  MAE  dy (AP):   3.4439 mm
+  MAE  dz (SI):   2.5244 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   5.7735 mm
+---------------------------------------------
+  TRE (landmarks):             22.5114 mm
+  TRE initial (no reg):        21.8060 mm
+  TRE after GT registration:    0.8498 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/copd10_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/copd10_fig2_components.png
+
+============================================================
+SUMMARY
+============================================================
+  MAE dx: 2.1099 mm
+  MAE dy: 3.1783 mm
+  MAE dz: 2.5658 mm
+  MDE:    5.2833 mm
+  TRE:    18.4522 mm
+
+
+Done. Results: /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real
+Finished: 2026-04-06 17:21:13

@@ -1,0 +1,30 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6421738
+============================================================
+Run started: 2026-04-16 14:37:33
+Log file:    /mimer/NOBACKUP/groups/caim1/dafne/checkpoints/16_condchannels/training.log
+============================================================
+Using device: cuda
+Train=425, Val=75, Test=100
+Loaded DVF stats: mean=-3.174312, std=10.820530
+No checkpoint found — starting from scratch
+Epoch 001/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=1.17409 MSE=0.94156 Smooth=0.23254] | Val   [Total=1.67479 MSE=0.86206 Smooth=0.81273] *** BEST ***
+Epoch 002/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.99835 MSE=0.78006 Smooth=0.21830] | Val   [Total=1.33012 MSE=0.71528 Smooth=0.61485] *** BEST ***
+Epoch 003/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.79420 MSE=0.63712 Smooth=0.15708] | Val   [Total=1.05313 MSE=0.59271 Smooth=0.46041] *** BEST ***
+Epoch 004/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.63896 MSE=0.51826 Smooth=0.12070] | Val   [Total=0.80049 MSE=0.48532 Smooth=0.31517] *** BEST ***
+Epoch 005/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.46017 MSE=0.38989 Smooth=0.07028] | Val   [Total=0.60343 MSE=0.39134 Smooth=0.21208] *** BEST ***
+Epoch 006/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.37992 MSE=0.32611 Smooth=0.05381] | Val   [Total=0.47045 MSE=0.33111 Smooth=0.13933] *** BEST ***
+Epoch 007/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.29111 MSE=0.26953 Smooth=0.02158] | Val   [Total=0.38212 MSE=0.28458 Smooth=0.09753] *** BEST ***
+Epoch 008/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.26364 MSE=0.23810 Smooth=0.02554] | Val   [Total=0.32255 MSE=0.25248 Smooth=0.07007] *** BEST ***
+Epoch 009/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.20500 MSE=0.18897 Smooth=0.01603] | Val   [Total=0.28562 MSE=0.23040 Smooth=0.05522] *** BEST ***
+Epoch 010/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.18153 MSE=0.16534 Smooth=0.01619] | Val   [Total=0.25653 MSE=0.20949 Smooth=0.04704] *** BEST ***
+Epoch 011/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.17234 MSE=0.16095 Smooth=0.01139] | Val   [Total=0.23820 MSE=0.19669 Smooth=0.04152] *** BEST ***
+Epoch 012/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.15213 MSE=0.14124 Smooth=0.01088] | Val   [Total=0.22430 MSE=0.18856 Smooth=0.03575] *** BEST ***
+Epoch 013/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.13815 MSE=0.12940 Smooth=0.00875] | Val   [Total=0.20969 MSE=0.17957 Smooth=0.03012] *** BEST ***
+Epoch 014/600 | λ=1.00e-04 | LR=1.00e-04 | Train [Total=0.14497 MSE=0.13614 Smooth=0.00884] | Val   [Total=0.19623 MSE=0.17204 Smooth=0.02419] *** BEST ***
+Epoch 015/600 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.12649 MSE=0.12101 Smooth=0.00548] | Val   [Total=0.18506 MSE=0.16344 Smooth=0.02162] *** BEST ***
+Epoch 016/600 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.12138 MSE=0.11651 Smooth=0.00487] | Val   [Total=0.17591 MSE=0.15741 Smooth=0.01850] *** BEST ***
+Epoch 017/600 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.10859 MSE=0.10417 Smooth=0.00442] | Val   [Total=0.16966 MSE=0.15324 Smooth=0.01641] *** BEST ***
+Epoch 018/600 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.11935 MSE=0.11488 Smooth=0.00448] | Val   [Total=0.16187 MSE=0.14683 Smooth=0.01504] *** BEST ***
+Epoch 019/600 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.11368 MSE=0.10999 Smooth=0.00369] | Val   [Total=0.15694 MSE=0.14325 Smooth=0.01369] *** BEST ***
+Epoch 020/600 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.09865 MSE=0.09534 Smooth=0.00331] | Val   [Total=0.15202 MSE=0.13865 Smooth=0.01336] *** BEST ***
+Epoch 021/600 | λ=1.00e-04 | LR=9.99e-05 | Train [Total=0.09051 MSE=0.08667 Smooth=0.00384] | Val   [Total=0.15216 MSE=0.13948 Smooth=0.01268]

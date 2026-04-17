@@ -1,0 +1,19 @@
+=============================================
+  Method: RePaint Sampling
+  Resampling steps: 6
+  Test samples: 100
+  DVF resolution: 128x128x64
+  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.2152 mm
+  MAE  dy (AP):   4.5857 mm
+  MAE  dz (SI):   6.0091 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   9.0164 mm
+---------------------------------------------
+  TRE (grid landmarks):         9.0159 mm
+---------------------------------------------
+  Non-Jacobian fraction (normalised space):
+    Predicted:    0.000 %
+    GT:           0.000 %
+=============================================

@@ -1,0 +1,332 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6421708
+============================================================
+RePaint Real Data — 2026-04-16 14:33:02
+Resampling steps: 5  |  No temperature scaling
+Test cases: ['copd01', 'copd02', 'copd03', 'copd04', 'copd05', 'copd06', 'copd07', 'copd08', 'copd09', 'copd10']
+============================================================
+Device: cuda
+Real DVF stats: mean=-3.1743 mm, std=10.8205 mm
+Loaded: /mimer/NOBACKUP/groups/caim1/dafne/checkpoints/32_condchannels/best_model.pth
+
+────────────────────────────────────────────────────────────
+Processing copd01 (1/10)...
+  Motion mask: 1048576 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.9s
+  Voxel spacing (DS): (2.5, 2.5, 5.0) mm
+  Loaded 300 landmarks for copd1
+
+=============================================
+  Case: copd01
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.5, 2.5, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.6662 mm
+  MAE  dy (AP):   3.9909 mm
+  MAE  dz (SI):   8.6498 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  10.7256 mm
+---------------------------------------------
+  TRE (landmarks):             30.4353 mm
+  TRE initial (no reg):        26.3340 mm
+  TRE after GT registration:    0.7130 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd01_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd01_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd02 (2/10)...
+  Motion mask: 1048576 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.7s
+  Voxel spacing (DS): (2.58, 2.58, 5.0) mm
+  Loaded 300 landmarks for copd2
+
+=============================================
+  Case: copd02
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.58, 2.58, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.4707 mm
+  MAE  dy (AP):   2.3883 mm
+  MAE  dz (SI):   6.2486 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   7.8006 mm
+---------------------------------------------
+  TRE (landmarks):             23.9779 mm
+  TRE initial (no reg):        21.7860 mm
+  TRE after GT registration:    1.8930 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd02_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd02_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd03 (3/10)...
+  Motion mask: 1048576 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.7s
+  Voxel spacing (DS): (2.608, 2.608, 5.0) mm
+  Loaded 300 landmarks for copd3
+
+=============================================
+  Case: copd03
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.608, 2.608, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.4143 mm
+  MAE  dy (AP):   4.3495 mm
+  MAE  dz (SI):   4.6095 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   7.7830 mm
+---------------------------------------------
+  TRE (landmarks):             15.2105 mm
+  TRE initial (no reg):        12.6390 mm
+  TRE after GT registration:    0.7720 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd03_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd03_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd04 (4/10)...
+  Motion mask: 1048573 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.6s
+  Voxel spacing (DS): (2.36, 2.36, 5.0) mm
+  Loaded 300 landmarks for copd4
+
+=============================================
+  Case: copd04
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.36, 2.36, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.6505 mm
+  MAE  dy (AP):   8.1387 mm
+  MAE  dz (SI):   6.9545 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  12.5882 mm
+---------------------------------------------
+  TRE (landmarks):             34.7592 mm
+  TRE initial (no reg):        29.5840 mm
+  TRE after GT registration:    0.6750 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd04_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd04_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd05 (5/10)...
+  Motion mask: 1048573 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.7s
+  Voxel spacing (DS): (2.588, 2.588, 5.0) mm
+  Loaded 300 landmarks for copd5
+
+=============================================
+  Case: copd05
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.588, 2.588, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.5449 mm
+  MAE  dy (AP):   8.4741 mm
+  MAE  dz (SI):   8.8084 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  13.6197 mm
+---------------------------------------------
+  TRE (landmarks):             32.1253 mm
+  TRE initial (no reg):        30.0830 mm
+  TRE after GT registration:    0.7110 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd05_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd05_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd06 (6/10)...
+  Motion mask: 1048576 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.7s
+  Voxel spacing (DS): (2.532, 2.532, 5.0) mm
+  Loaded 300 landmarks for copd6
+
+=============================================
+  Case: copd06
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.532, 2.532, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.2145 mm
+  MAE  dy (AP):   4.7838 mm
+  MAE  dz (SI):   7.7721 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  10.3564 mm
+---------------------------------------------
+  TRE (landmarks):             31.0522 mm
+  TRE initial (no reg):        28.4560 mm
+  TRE after GT registration:    0.6660 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd06_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd06_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd07 (7/10)...
+  Motion mask: 1048576 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.7s
+  Voxel spacing (DS): (2.5, 2.5, 5.0) mm
+  Loaded 300 landmarks for copd7
+
+=============================================
+  Case: copd07
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.5, 2.5, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.5492 mm
+  MAE  dy (AP):   6.9348 mm
+  MAE  dz (SI):   5.2732 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  10.1293 mm
+---------------------------------------------
+  TRE (landmarks):             24.1387 mm
+  TRE initial (no reg):        21.6020 mm
+  TRE after GT registration:    0.7490 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd07_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd07_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd08 (8/10)...
+  Motion mask: 1048576 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.7s
+  Voxel spacing (DS): (2.344, 2.344, 5.0) mm
+  Loaded 300 landmarks for copd8
+
+=============================================
+  Case: copd08
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.344, 2.344, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.7954 mm
+  MAE  dy (AP):   7.8413 mm
+  MAE  dz (SI):   6.5107 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  12.0728 mm
+---------------------------------------------
+  TRE (landmarks):             28.3594 mm
+  TRE initial (no reg):        26.4570 mm
+  TRE after GT registration:    0.7820 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd08_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd08_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd09 (9/10)...
+  Motion mask: 1048564 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.7s
+  Voxel spacing (DS): (2.656, 2.656, 5.0) mm
+  Loaded 300 landmarks for copd9
+
+=============================================
+  Case: copd09
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.656, 2.656, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.9353 mm
+  MAE  dy (AP):   4.1970 mm
+  MAE  dz (SI):   4.7575 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   8.0611 mm
+---------------------------------------------
+  TRE (landmarks):             17.3185 mm
+  TRE initial (no reg):        14.8600 mm
+  TRE after GT registration:    0.6410 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd09_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd09_fig2_components.png
+
+────────────────────────────────────────────────────────────
+Processing copd10 (10/10)...
+  Motion mask: 1048573 / 1048576 voxels (100.0%)
+  Known coronal non-zero: 8192 / 8192 voxels
+  Known sagittal non-zero: 8192 / 8192 voxels
+  Running RePaint (steps=5)...
+  Done in 105.6s
+  Voxel spacing (DS): (2.968, 2.968, 5.0) mm
+  Loaded 300 landmarks for copd10
+
+=============================================
+  Case: copd10
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.968, 2.968, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.9904 mm
+  MAE  dy (AP):   6.3530 mm
+  MAE  dz (SI):   4.3151 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   9.4203 mm
+---------------------------------------------
+  TRE (landmarks):             23.3605 mm
+  TRE initial (no reg):        21.8060 mm
+  TRE after GT registration:    0.8500 mm
+=============================================
+
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd10_fig1_overview.png
+  Saved /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained/copd10_fig2_components.png
+
+============================================================
+SUMMARY
+============================================================
+  MAE dx: 2.6231 mm
+  MAE dy: 5.7451 mm
+  MAE dz: 6.3899 mm
+  MDE:    10.2557 mm
+  TRE:    26.0738 mm
+
+
+Done. Results: /mimer/NOBACKUP/groups/caim1/dafne/results//32_condchannels/RePaint_Real_pretrained
+Finished: 2026-04-16 14:51:13

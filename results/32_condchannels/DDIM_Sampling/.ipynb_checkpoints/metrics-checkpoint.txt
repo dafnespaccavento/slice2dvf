@@ -1,0 +1,19 @@
+=============================================
+  Method: DDIM Sampling
+  DDIM steps: 100  |  eta: 0.0
+  Test samples: 100
+  DVF resolution: 128x128x64
+  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   3.0786 mm
+  MAE  dy (AP):   3.6447 mm
+  MAE  dz (SI):  10.5267 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  12.5682 mm
+---------------------------------------------
+  TRE (grid landmarks):        10.5129 mm
+---------------------------------------------
+  Non-Jacobian fraction (normalised space):
+    Predicted:    0.000 %
+    GT:           0.000 %
+=============================================

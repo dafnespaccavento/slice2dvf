@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/sample_repaint_real.py", line 638, in <module>
+    main()
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/sample_repaint_real.py", line 459, in main
+    model.load_state_dict(torch.load(ckpt_path, map_location=device))
+  File "/mimer/NOBACKUP/groups/caim1/dafne/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2593, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for DiffusionModelManager:
+	Missing key(s) in state_dict: "slice_to_vol.coronal_encoder.0.weight", "slice_to_vol.coronal_encoder.0.bias", "slice_to_vol.coronal_encoder.2.weight", "slice_to_vol.coronal_encoder.2.bias", "slice_to_vol.sagittal_encoder.0.weight", "slice_to_vol.sagittal_encoder.0.bias", "slice_to_vol.sagittal_encoder.2.weight", "slice_to_vol.sagittal_encoder.2.bias", "slice_to_vol.fusion.weight", "slice_to_vol.fusion.bias", "unet.time_mlp.1.weight", "unet.time_mlp.1.bias", "unet.time_proj1.weight", "unet.time_proj1.bias", "unet.time_proj2.weight", "unet.time_proj2.bias", "unet.time_proj_mid.weight", "unet.time_proj_mid.bias", "unet.enc1.weight", "unet.enc1.bias", "unet.enc2.weight", "unet.enc2.bias", "unet.mid.weight", "unet.mid.bias", "unet.mid_res.block.0.weight", "unet.mid_res.block.0.bias", "unet.mid_res.block.1.weight", "unet.mid_res.block.1.bias", "unet.mid_res.block.3.weight", "unet.mid_res.block.3.bias", "unet.mid_res.block.4.weight", "unet.mid_res.block.4.bias", "unet.dec1.weight", "unet.dec1.bias", "unet.out.weight", "unet.out.bias". 
+	Unexpected key(s) in state_dict: "epoch", "model_state_dict", "train_loss", "recon_loss", "smooth_loss". 

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/finetune_real.py", line 491, in <module>
+    main()
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/finetune_real.py", line 414, in main
+    train_loss, recon_loss, smooth_loss = train_one_epoch(
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/finetune_real.py", line 304, in train_one_epoch
+    norm_threshold = MOTION_THRESHOLD / dvf_std
+NameError: name 'dvf_std' is not defined

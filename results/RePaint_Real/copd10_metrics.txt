@@ -1,0 +1,16 @@
+=============================================
+  Case: copd10
+  Method: RePaint (steps=5, no temperature)
+  Normalisation: mean=1.239 mm, std=15.003 mm (global real)
+  DVF resolution: 128x128x64  |  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.6078 mm
+  MAE  dy (AP):   3.4439 mm
+  MAE  dz (SI):   2.5244 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   5.7735 mm
+---------------------------------------------
+  TRE (landmarks):             22.5114 mm
+  TRE initial (no reg):        21.8060 mm
+  TRE after GT registration:    0.8498 mm
+=============================================

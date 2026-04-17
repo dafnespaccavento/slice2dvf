@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/train_cfg.py", line 498, in <module>
+    main()
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/train_cfg.py", line 376, in main
+    current_lambda = get_smooth_lambda(epoch, NUM_EPOCHS)
+  File "/mimer/NOBACKUP/groups/caim1/dafne/code/train_cfg.py", line 248, in get_smooth_lambda
+    step = (initial_lambda - final_lambda) / decay_range
+ZeroDivisionError: float division by zero

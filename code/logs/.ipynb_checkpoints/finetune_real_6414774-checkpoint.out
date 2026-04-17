@@ -1,0 +1,21 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/6414774
+============================================================
+Real Data Fine-tuning — 2026-04-15 15:23:28
+Architecture: cond_channels=32, UNet 64→128 channels
+LR=1e-05  WD=0.0001  epochs=150  smooth_lambda=1e-07
+Train: ['copd01', 'copd02', 'copd03', 'copd04', 'copd05', 'copd06', 'copd07', 'copd08']
+Test:  ['copd09', 'copd10']
+============================================================
+Device: cuda
+Real DVF stats: mean=1.2394 mm, std=15.0029 mm
+
+=== Loading training cases ===
+  copd01  shape=(3, 128, 128, 64)  mean_mag=9.265 mm  normalised range=[-2.80, 3.39]
+  copd02  shape=(3, 128, 128, 64)  mean_mag=5.116 mm  normalised range=[-1.76, 2.46]
+  copd03  shape=(3, 128, 128, 64)  mean_mag=3.931 mm  normalised range=[-2.10, 1.40]
+  copd04  shape=(3, 128, 128, 64)  mean_mag=10.140 mm  normalised range=[-4.35, 3.23]
+  copd05  shape=(3, 128, 128, 64)  mean_mag=11.287 mm  normalised range=[-3.66, 3.55]
+  copd06  shape=(3, 128, 128, 64)  mean_mag=7.941 mm  normalised range=[-2.89, 3.34]
+  copd07  shape=(3, 128, 128, 64)  mean_mag=6.433 mm  normalised range=[-2.65, 1.66]
+  copd08  shape=(3, 128, 128, 64)  mean_mag=8.776 mm  normalised range=[-4.20, 2.16]
+Train batches per epoch: 40

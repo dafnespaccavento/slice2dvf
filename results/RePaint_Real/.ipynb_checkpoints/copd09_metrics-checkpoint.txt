@@ -1,0 +1,18 @@
+=============================================
+  Case: copd09
+  Method: RePaint (steps=6, T=1.2)
+  DVF resolution: 128x128x64
+  Voxel spacing: (1.25, 1.25, 5.0) mm
+=============================================
+  MAE  dx (LR):   3.5743 mm
+  MAE  dy (AP):   4.6372 mm
+  MAE  dz (SI):   3.1020 mm
+---------------------------------------------
+  Mean 3D Displacement Error:   7.5843 mm
+---------------------------------------------
+  TRE (landmarks):             14.1660 mm
+  TRE initial (no reg):        14.8600 mm
+  TRE after GT registration:    0.6412 mm
+---------------------------------------------
+  Non-Jacobian fraction:        0.000 %
+=============================================

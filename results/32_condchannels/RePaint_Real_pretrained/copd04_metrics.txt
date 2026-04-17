@@ -1,0 +1,17 @@
+=============================================
+  Case: copd04
+  Method: RePaint pretrained (steps=5, no fine-tuning)
+  Evaluation: motion voxels only (border excluded)
+  Normalisation: mean=-3.174 mm, std=10.821 mm (synthetic)
+  DVF resolution: 128x128x64  |  Voxel spacing: (2.36, 2.36, 5.0) mm
+=============================================
+  MAE  dx (LR):   2.6505 mm
+  MAE  dy (AP):   8.1387 mm
+  MAE  dz (SI):   6.9545 mm
+---------------------------------------------
+  Mean 3D Displacement Error:  12.5882 mm
+---------------------------------------------
+  TRE (landmarks):             34.7592 mm
+  TRE initial (no reg):        29.5840 mm
+  TRE after GT registration:    0.6750 mm
+=============================================
