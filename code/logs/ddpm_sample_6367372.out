@@ -1,9 +1,0 @@
-This job can be monitored from: https://job.c3se.chalmers.se/alvis/6367372
-============================================================
-DDPM Sampling — started 2026-04-09 15:46:10
-Log: /mimer/NOBACKUP/groups/caim1/dafne/results/32_condchannels/DDPM_Sampling/sampling.log
-============================================================
-Device: cuda
-Voxel spacing (downsampled): (1.25, 1.25, 5.0) mm
-DVF stats: mean=-3.174312, std=10.820530
-Test samples: 100

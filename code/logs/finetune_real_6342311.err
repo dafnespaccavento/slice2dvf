@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/mimer/NOBACKUP/groups/caim1/dafne/code/finetune_real.py", line 489, in <module>
-    main()
-  File "/mimer/NOBACKUP/groups/caim1/dafne/code/finetune_real.py", line 412, in main
-    train_loss, recon_loss, smooth_loss = train_one_epoch(
-  File "/mimer/NOBACKUP/groups/caim1/dafne/code/finetune_real.py", line 303, in train_one_epoch
-    mask = compute_motion_mask(dvf[0]).unsqueeze(0).to(device)
-TypeError: compute_motion_mask() missing 1 required positional argument: 'sample_std'

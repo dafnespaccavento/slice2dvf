@@ -1,8 +1,0 @@
-This job can be monitored from: https://job.c3se.chalmers.se/alvis/6414897
-============================================================
-Run started: 2026-04-15 15:40:20
-Log file:    /mimer/NOBACKUP/groups/caim1/dafne/checkpoints/32_condchannels/training.log
-============================================================
-Using device: cuda
-Train=425, Val=75, Test=100
-Loaded DVF stats: mean=-3.174312, std=10.820530

@@ -1,9 +1,0 @@
-This job can be monitored from: https://job.c3se.chalmers.se/alvis/6341788
-============================================================
-RePaint Real Data Sampling — started 2026-04-06 14:22:48
-Log: /mimer/NOBACKUP/groups/caim1/dafne/results/RePaint_Real/sampling.log
-Resampling steps: 6  |  Temperature: 1.2
-Test cases: ['copd09', 'copd10']
-============================================================
-Device: cuda
-DVF stats: mean=-3.174312, std=10.820530
